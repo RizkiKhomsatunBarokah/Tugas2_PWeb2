@@ -2,6 +2,11 @@
 require_once('koneksi.php');
 
 class Reports extends Database{
+	public function query($query) {
+        echo "Menjalankan query di kelas Reports: $query";
+        return parent::query($query); // Memanggil metode query di kelas induk (Database)
+    } 
+
     public function tampilReports(){
         $query = "SELECT * FROM tbl_reports WHERE status ='approved'";
         $data = mysqli_query($this->koneksi, $query);
@@ -63,5 +68,6 @@ $data = $tampil->tampilReports();
 		?>
 	</table>
 	<br>
+	<a href="home.php">Kembali Ke halaman Utama</a>
 </body>
 </html>

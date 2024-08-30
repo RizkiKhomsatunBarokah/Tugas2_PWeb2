@@ -12,5 +12,8 @@ class database{
 			echo "Koneksi database gagal : " . mysqli_connect_error();
 		}
     }
+	public function query($query) {
+        return mysqli_query($this->koneksi, $query);
+    }
 }
 ?>

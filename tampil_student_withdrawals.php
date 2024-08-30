@@ -49,6 +49,8 @@ $data = $tampil1->TampilStudent();
         }
         ?>
     </table>
+    <br>
+	<a href="home.php">Kembali Ke halaman Utama</a>
     </center>
 </body>
 </html>

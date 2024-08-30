@@ -2,6 +2,10 @@
 require_once('koneksi.php');
 
 class Student_Withdrawals extends Database{
+    public function query($query) {
+        echo "Menjalankan query di kelas Reports: $query";
+        return parent::query($query); // Memanggil metode query di kelas induk (Database)
+    } 
     public function TampilStudent(){
         $query = "SELECT * FROM student_withdrawals WHERE withdrawal_type='withdrawal'";
         $data = mysqli_query($this->koneksi, $query);
@@ -50,6 +54,8 @@ $data = $tampil1->TampilStudent();
         }
         ?>
     </table>
+    <br>
+	<a href="home.php">Kembali Ke halaman Utama</a>
     </center>
 </body>
 </html>

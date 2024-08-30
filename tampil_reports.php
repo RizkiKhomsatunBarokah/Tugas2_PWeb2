@@ -62,5 +62,6 @@ $data = $tampil->tampilReports();
 		?>
 	</table>
 	<br>
+	<a href="home.php">Kembali Ke halaman Utama</a>
 </body>
 </html>
