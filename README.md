@@ -159,10 +159,12 @@ $data = $tampil->tampilReports();
 		?>
 	</table>
 	<br>
+	<a href="home.php">Kembali Ke halaman Utama</a>
 </body>
 </html>
 ```
-(GAMBAR)
+![image](https://github.com/user-attachments/assets/eaf810a9-8c98-4669-9375-e77ad3e4ee80)
+
 
 ### TABEL STUDENT WITHDRAWALS
 ```php
@@ -261,11 +263,14 @@ $data = $tampil1->TampilStudent();
         }
         ?>
     </table>
+    <br>
+     <a href="home.php">Kembali Ke halaman Utama</a>
     </center>
 </body>
 </html>
 ```
-(GAMBAR)
+![image](https://github.com/user-attachments/assets/3fbcfaf1-6d78-49ee-872e-7393486a4ae5)
+
 
 ### 3. Setelah kita sudah bisa membuat tampilan dari semua isi yang ada di dalam tabel. Sekarang kita akan menampilkan data dengan ketentuan tertentu menggunakan polymorphism.
 ### TABEL REPORTS
@@ -379,11 +384,13 @@ $data = $tampil->tampilReports();
 		}
 		?>
 	</table>
-	<br>
+        <br>
+        <a href="home.php">Kembali Ke halaman Utama</a>
 </body>
 </html>
 ```
-(GAMBAR)
+![image](https://github.com/user-attachments/assets/32c7ba95-fb76-4125-be7e-c37b715a99f6)
+
 
 ### TABEL STUDENT WITHDRAWALS
 sebelum kita akan menampilkan sebuah data, kita harus membuat logik php terlebih dahulu. 
@@ -483,11 +490,14 @@ $data = $tampil1->TampilStudent();
         }
         ?>
     </table>
+    <br>
+        <a href="home.php">Kembali Ke halaman Utama</a>
     </center>
 </body>
 </html>
 ```
-(GAMBAR)
+![image](https://github.com/user-attachments/assets/dd596943-0974-42c3-a93e-b7082d18963b)
+
 
 ### 4. Untuk mempercantik tampilan yang kita buat, kita bisa menggunakan Bootstrap
 Berikut adalah Full Code beserta output yang diberikan 
@@ -560,5 +570,5 @@ Berikut adalah Full Code beserta output yang diberikan
 </html>
 
 ```
+![image](https://github.com/user-attachments/assets/5ba48e20-d92e-4dff-9d41-51f41e5da7ca)
 
-(GAMBAR)
